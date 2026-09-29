@@ -1,0 +1,12 @@
+# dependencies
+node_modules/
+
+# local/editor files
+.DS_Store
+.vscode/
+.idea/
+*.log
+
+# generated browser artifacts
+coverage/
+dist/
