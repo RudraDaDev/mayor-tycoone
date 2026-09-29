@@ -1,14 +1,11 @@
 {
-  "name": "project-crown",
-  "version": "0.1.0",
+  "name": "project-crown-trader",
+  "version": "0.2.0",
   "private": true,
-  "description": "A pixel-art, living-world city management prototype built with KaboomJS and vanilla JavaScript.",
+  "description": "A small browser-based regional resource trading game.",
   "type": "module",
   "scripts": {
     "start": "python3 -m http.server 5173 --bind 0.0.0.0",
-    "check": "node --check js/app.js && node --check js/sim.js && node --check js/data.js && node --check js/storage.js && node --check js/prng.js && node --check js/audio.js"
-  },
-  "dependencies": {
-    "kaboom": "^3000.1.17"
+    "check": "node --check js/trader.js"
   }
 }
